@@ -3,10 +3,8 @@ from datetime import datetime, timedelta
 import numpy as np
 import pandas as pd
 
-# Seed for reproducible results
 np.random.seed(42)
 
-# 5 Categories and their associated tags
 CATEGORIES = {
     "Tech": ["python", "ai", "coding", "webdev", "cloud", "gadgets"],
     "Music": ["lofi", "rock", "pop", "guitar", "acoustic", "live"],
